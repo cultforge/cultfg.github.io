@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href=".//static/css/style.css">
+    <link rel="stylesheet" href="./Documentation.html">
+    <link rel="stylesheet" href="./Community.html">
     <title>CultForge</title>
 </head>
 <body>
-   <div>
-    
-   </div>
+    <header class="site-header" role="banner">
+        <div class="brand">
+            <div class="logo" aria-hidden="true">
+                <img src="./static/images/main.png" alt="" srcset="">
+            </div>
+            <div>
+                <h1>CultForge</h1>
+                <p style="margin-top: 1%;" class="muted"> A community based game launcher for minecraft.</p>
+            </div>
+        </div>
+
+        <nav class="primary" role="navigation" aria-label="Primary">
+            <a href="#features">Features</a>
+            <a href="#download">Download</a>
+            <a href="./Documentation.html">Documentation</a>
+            <a href="./Community.html">Community</a>
+        </nav>
+
+        <div style="display:flex;align-items:center;gap:12px">
+            <button class="cta-btn" id="headerDownload">Get CultForge</button>
+            <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+        </div>
+    </header>
 </body>
 </html>
